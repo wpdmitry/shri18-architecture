@@ -1,0 +1,16 @@
+<div class="shopping">
+    <h1 class="shopping__title">Список покупок</h1>
+
+    <form class="shopping__form" action="">
+        <input class="shopping__input" type="text" placeholder="Наименование продукта">
+        <button class="shopping__btn-add">Добавить</button>
+    </form>
+
+    <ul class="shopping__list">
+        {{#each shoppingList}}
+            <li class="shopping__item" data-id="{{ id }}">
+                {{ name }}
+            </li>
+        {{/each}}
+    </ul>
+</div>

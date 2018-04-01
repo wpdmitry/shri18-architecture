@@ -1,0 +1,24 @@
+{
+  "name": "shri-architecture",
+  "version": "1.0.0",
+  "description": "Задание по архитектуре для ШРИ-2018",
+  "main": "events-lib.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.7.0",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
